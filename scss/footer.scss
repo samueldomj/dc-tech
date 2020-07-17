@@ -1,0 +1,27 @@
+
+.footer__top{
+    position: relative;
+    .link-page:hover{
+        color: $darkColor;
+    }
+    background: $borderColor;
+    text-align: center;
+    .footer__list{
+        list-style: none;
+    }
+    .footer__social{
+        margin-bottom: 0;
+        .footer__list{
+            display: inline-block;
+        }
+        .footer__link{
+            margin: 0 15px;
+            margin-top: 10px;
+        }
+    }
+}
+.footer__bottom{
+    .link-page:hover{
+        text-decoration: underline;
+    }
+}

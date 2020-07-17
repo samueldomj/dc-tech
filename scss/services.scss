@@ -1,0 +1,33 @@
+.content-page-services{
+
+    // se aplica imagen a los elementos de lista
+    li{
+        list-style: url(../img/ok.png) disc inside;
+    }
+
+    // valor agregado - 'servicios'
+    .accordion__wrapper{
+        .card-header{
+            button{
+                width: 100%;
+                color: $textColor;
+                background: none;
+                border: none;
+                display: block;
+                outline: none;
+                text-align: left;
+                &:hover{
+                    color: $firstColor;
+                }
+            }
+        }
+        .accordion__list{
+            margin: 0;
+            .accordion__list-item{
+                margin-bottom: 15px;
+                vertical-align: middle;
+                &:last-child{margin-bottom: 0;}
+            }
+        }
+    }
+}

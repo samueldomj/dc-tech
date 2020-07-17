@@ -1,0 +1,46 @@
+.content-page-about{
+
+    // equipo de trabajo - 'nosotros'
+    .team{
+        background: $borderColor;
+        .team-person{
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 170px;
+            height: 170px;
+            border-radius: 100px;
+            margin: 0 auto 5px;
+            position: relative;
+            overflow: hidden;
+            img{
+                max-width: 100%;
+                margin-top: -35px;
+            }
+        }
+
+        .team-person-1{
+            background-image: url(../img/equipo/team-img-1.jpg);
+        }
+
+        .team-person-2{
+            background-image: url(../img/equipo/team-img-2.jpg);
+        }
+
+        .team-person-3{
+            background-image: url(../img/equipo/team-img-3.jpg);
+        }
+
+        .team-person-4{
+            background-image: url(../img/equipo/team-img-4.jpg);
+        }
+
+        .team-person-5{
+            background-image: url(../img/equipo/team-img-5.jpg);
+        }
+
+        .team-person-6{
+            background-image: url(../img/equipo/team-img-6.jpg);
+        }
+    }
+}

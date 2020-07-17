@@ -1,0 +1,80 @@
+// se aplican los margenes  de seperacion en cada sección
+.services,
+.success-stories,
+.connections,
+.testimonials,
+.about,
+.single,
+.team,
+.services-plus,
+.library,
+.contacto{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.content-page-home{
+    // slider's - 'home'
+    .slider{
+        .bg-slider{
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-clip: border-box;
+            height: 850px; //Ajustar la posicion del contenido cuando ya este con la información correcta
+            .slider__content{
+                bottom: 15%; //Ajustar la posicion del contenido cuando ya este con la información correcta
+            }
+        }
+        .bg-slider-1{
+            background-image: url(../img/sliders/slider1.jpg); //sustituir la ruta de la img o cambiar el nombre
+        }
+        .bg-slider-2{
+            background-image: url(../img/sliders/slider2.jpg);
+        }
+        .bg-slider-3{
+            background-image: url(../img/sliders/slider3.jpg);
+        }
+    }
+
+    @media screen and (min-width: em(992)){
+        .slider{
+            .bg-slider{
+                height: 100vh;
+                .slider__content{
+                    bottom: 40%;
+                }
+            }
+        }
+    }
+
+    // casos de uso - 'home'
+    .success-stories{
+        ul{
+            .active{
+                border-top: 1px solid $firstColor !important;
+                border-left: 1px solid $firstColor !important;
+                border-right: 1px solid $firstColor !important;
+                color: $firstColor !important;
+            }
+        }
+    }
+
+    // testimonios - 'home'
+    .testimonials{
+        background: $borderColor;
+    }
+
+    // ¿quienes somos? - 'home'
+    .about{
+        .about-img{
+            width: 80px;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+// tamaño iconos de servicios - 'home'
+.services-img{
+    width: 80px;
+}

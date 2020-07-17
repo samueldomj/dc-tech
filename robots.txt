@@ -1,0 +1,12 @@
+User-Agent: *
+Disallow: 
+Allow: /img/casos-exito
+Allow: /img/sliders
+Allow: /img/vinculaciones
+Disallow: /php
+Disallow: /js
+Disallow: /blog
+Disallow: /css
+Disallow: /scss
+
+Sitemap: http://dyctech.000webhostapp.com/sitemap.xml
